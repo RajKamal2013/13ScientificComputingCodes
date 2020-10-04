@@ -1,0 +1,5 @@
+function k(a)
+syms x;
+f=inline('x*a'
+f(1)
+end

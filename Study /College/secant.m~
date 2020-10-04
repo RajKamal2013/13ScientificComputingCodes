@@ -1,0 +1,40 @@
+function X=secant(f,xa,xb,tol)
+err=abs(xb-xb);
+while err>tol
+    denom=(xb-xa)*f(xb);
+    num=f(xb)-f(xa);
+    x=xb-(denom/num);
+    if abs(
+    
+    y=z;
+    err=norm(y-x);
+end
+
+
+
+    
+end    
+
+
+ 
+
+FunXb = feval(Fun,Xb);  
+Xi = Xb - FunXb*(Xa-Xb)/(feval(Fun,Xa)-FunXb);  
+if abs((Xi - Xb)/Xb) < Err  
+Xs = Xi;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

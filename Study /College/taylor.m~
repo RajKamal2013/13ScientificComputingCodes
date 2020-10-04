@@ -1,0 +1,11 @@
+function Y=taylor()
+x=0:pi/10:2*pi;
+y=x-((x.^3)/factorial(3))+((x.^5)/factorial(5))-((x.^7)/factorial(7))+((x.^9)/factorial(9));
+
+
+hold off
+end
+figure
+x = -pi:pi/20:pi;
+plot(x,cos(x),'-ro',x,sin(x),'-.b')
+hleg1 = legend('cos_x','sin_x');

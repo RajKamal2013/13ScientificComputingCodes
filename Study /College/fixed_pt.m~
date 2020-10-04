@@ -1,0 +1,16 @@
+function X = fixed_pt(f,xo,tol)
+format long e;
+err=tol+1;
+x=f(xo);
+y=f(x);
+for k=2:100
+    err=abs(y-x);
+    if err<tol
+        break;
+    end
+    x=
+end
+
+X=xx(k);
+end
+
